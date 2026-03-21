@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Feb 2026 10:42:03 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Css Center</title>
+      <link>http://localhost:1313/css-center/</link>
+      <pubDate>Mon, 23 Feb 2026 10:42:03 +0800</pubDate>
+      <guid>http://localhost:1313/css-center/</guid>
+      <description>&lt;!-- 直接在 Markdown 中嵌入 HTML 和 CSS，方便练习 --&gt;&#xD;&#xA;&lt;style&gt;&#xD;&#xA;/* 容器通用样式 */&#xD;&#xA;.center-container {&#xD;&#xA;  width: 400px;&#xD;&#xA;  height: 300px;&#xD;&#xA;  border: 2px solid #ccc;&#xD;&#xA;  margin: 20px auto; /* 页面中水平居中容器本身 */&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;/* 1. Flex 水平垂直居中（推荐） */&#xD;&#xA;.flex-center {&#xD;&#xA;  display: flex;&#xD;&#xA;  justify-content: center; /* 水平 */&#xD;&#xA;  align-items: center; /* 垂直 */&#xD;&#xA;  background: #f5f5f5;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;/* 2. 单行文字垂直居中（行高法） */&#xD;&#xA;.line-height-center {&#xD;&#xA;  line-height: 300px; /* 行高 = 容器高度 */&#xD;&#xA;  text-align: center; /* 水平居中 */&#xD;&#xA;  background: #e8f4f8;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;/* 3. 绝对定位 + transform 居中 */&#xD;&#xA;.position-center {&#xD;&#xA;  position: relative; /* 父元素相对定位 */&#xD;&#xA;  background: #fdf2f8;&#xD;&#xA;}&#xD;&#xA;.position-center .child {&#xD;&#xA;  position: absolute;&#xD;&#xA;  top: 50%;&#xD;&#xA;  left: 50%;&#xD;&#xA;  transform: translate(-50%, -50%); /* 水平+垂直偏移自身50% */&#xD;&#xA;  background: #fbb6ce;&#xD;&#xA;  padding: 10px 20px;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;/* 4. Grid 居中（极简） */&#xD;&#xA;.grid-center {&#xD;&#xA;  display: grid;&#xD;&#xA;  place-items: center; /* 一行搞定水平+垂直 */&#xD;&#xA;  background: #f0f8fb;&#xD;&#xA;}&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&lt;h2&gt;CSS 居中效果演示&lt;/h2&gt;&#xD;&#xA;&lt;!-- 1. Flex 居中示例 --&gt;&#xD;&#xA;&lt;div class=&#34;center-container flex-center&#34;&gt;&#xD;&#xA;  &lt;p&gt;Flex 水平垂直居中&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
